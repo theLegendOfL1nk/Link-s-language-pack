@@ -1,47 +1,47 @@
-Mobs/AnnouncementPrefix={#Rarities/{0:rarity}/ArticleUpper} {#Rarities/{0:rarity}/Name} {#Mobs/{0:base}/Name}
-Petals/AnnouncementPrefix={#Rarities/{0:rarity}/ArticleUpper} {#Rarities/{0:rarity}/Name} {#Petals/{0:base}/FullName}
+Mobs/AnnouncementPrefix=<c val="{#Colors/unusual}">{#Rarities/{0:rarity}/ArticleUpper} </c><c val="{#Colors/super}">{#Rarities/{0:rarity}/Name} {#Mobs/{0:base}/Name}</c>
+Petals/AnnouncementPrefix=<c val="{#Colors/unusual}">{#Rarities/{0:rarity}/ArticleUpper} </c><c val="{#Colors/super}">{#Rarities/{0:rarity}/Name} {#Petals/{0:base}/FullName}</c>
 
 Chat/PetalCraftedUnnamed={#Chat/PetalCraftedUnnamed/{0:rarity}#Chat/PetalCraftedUnnamed/default}
 Chat/PetalCraftedNamed={#Chat/PetalCraftedNamed/{0:rarity}#Chat/PetalCraftedNamed/default}
-Chat/PetalCraftedUnnamed/unique=The {#Rarities/{0:rarity}/Name} {#Petals/{0:base}/FullName} has been forged!
-Chat/PetalCraftedNamed/unique=The {#Rarities/{0:rarity}/Name} {#Petals/{0:base}/FullName} has been forged by {1}!
-Chat/PetalCraftedUnnamed/default={#Petals/AnnouncementPrefix:0} has been crafted!
-Chat/PetalCraftedNamed/default={#Petals/AnnouncementPrefix:0} has been crafted by {1}!
+Chat/PetalCraftedUnnamed/unique=<c val="{#Colors/unique}">The {#Rarities/{0:rarity}/Name} {#Petals/{0:base}/FullName}</c><c val="{#Colors/unusual}"> has been forged!</c>
+Chat/PetalCraftedNamed/unique=<c val="{#Colors/unique}">The {#Rarities/{0:rarity}/Name} {#Petals/{0:base}/FullName}</c><c val="{#Colors/unusual}"> has been forged by </c><c val="{#Colors/unique}">{1}</c><c val="{#Colors/unusual}">!</c>
+Chat/PetalCraftedUnnamed/default=<c val="{#Colors/super}">{#Petals/AnnouncementPrefix:0}</c><c val="{#Colors/unusual}"> has been crafted!</c>
+Chat/PetalCraftedNamed/default=<c val="{#Colors/super}">{#Petals/AnnouncementPrefix:0}</c><c val="{#Colors/unusual}"> has been crafted by </c><c val="{#Colors/super}">{1}</c><c val="{#Colors/unusual}">!</c>
 
 Chat/PetalFoundUnnamed={#Chat/PetalFoundUnnamed/{0:base}#Chat/PetalFoundUnnamed/generic}
 Chat/PetalFoundNamed={#Chat/PetalFoundNamed/{0:base}#Chat/PetalFoundNamed/generic}
-Chat/PetalFoundUnnamed/generic={#Petals/AnnouncementPrefix:0} has been found!
-Chat/PetalFoundNamed/generic={#Petals/AnnouncementPrefix:0} has been found by {1}!
+Chat/PetalFoundUnnamed/generic=<c val="{#Colors/super}">{#Petals/AnnouncementPrefix:0} </c><c val="{#Colors/unusual}">has been found!</c>
+Chat/PetalFoundNamed/generic=<c val="{#Colors/super}">{#Petals/AnnouncementPrefix:0} </c><c val="{#Colors/unusual}">has been found by </c><c val="{#Colors/super}">{1}</c><c val="{#Colors/unusual}">!</c>
 
-Chat/PetalFoundUnnamed/pharaoh_crown=The {#Petals/{0:base}/FullName} has been stolen!
-Chat/PetalFoundNamed/pharaoh_crown=The {#Petals/{0:base}/FullName} has been stolen by {1}!
+Chat/PetalFoundUnnamed/pharaoh_crown=<c val="{#Colors/unique}">The {#Petals/{0:base}/FullName}</c><c val="{#Colors/unusual}"> has been stolen!</c>
+Chat/PetalFoundNamed/pharaoh_crown=<c val="{#Colors/unique}">The {#Petals/{0:base}/FullName}</c><c val="{#Colors/unusual}"> has been stolen by {1}!</c>
 
-Chat/PetalFoundUnnamed/champion_crown=The {#Petals/{0:base}/FullName} has been taken!
-Chat/PetalFoundNamed/champion_crown=The {#Petals/{0:base}/FullName} has been taken by {1}!
+Chat/PetalFoundUnnamed/champion_crown=<c val="{#Colors/unusual}">The {#Petals/{0:base}/FullName} has been taken!</c>
+Chat/PetalFoundNamed/champion_crown=<c val="{#Colors/unusual}">The {#Petals/{0:base}/FullName} has been taken by {1}!</c>
 
 Chat/MobSpawnedHere={#Chat/MobSpawnedHere/Special/{1}#Mobs/{0:base}/Spawn#Chat/MobSpawnedHere/Text}
 Chat/MobSpawnedSomewhere={#Chat/MobSpawnedSomewhere/Special/{1}#Mobs/{0:base}/Spawn#Chat/MobSpawnedSomewhere/Text}
 
-Chat/MobSpawnedHere/Text={#Mobs/AnnouncementPrefix:0} has spawned!
-Chat/MobSpawnedSomewhere/Text={#Mobs/AnnouncementPrefix:0} has spawned somewhere!
+Chat/MobSpawnedHere/Text=<c val="{#Colors/unusual}">{#Mobs/AnnouncementPrefix:0} has spawned!</c>
+Chat/MobSpawnedSomewhere/Text=<c val="{#Colors/unusual}">{#Mobs/AnnouncementPrefix:0} has spawned somewhere!</c>
 
-Chat/MobSpawnedHere/Special/sacrifice={#Mobs/AnnouncementPrefix:0} has been summoned!
-Chat/MobSpawnedSomewhere/Special/sacrifice={#Mobs/AnnouncementPrefix:0} has been summoned somewhere!
+Chat/MobSpawnedHere/Special/sacrifice=<c val="{#Colors/unusual}">{#Mobs/AnnouncementPrefix:0} has been summoned!</c>
+Chat/MobSpawnedSomewhere/Special/sacrifice=<c val="{#Colors/unusual}">{#Mobs/AnnouncementPrefix:0} has been summoned somewhere!</c>
 
 Chat/MobDefeated={#Chat/MobDefeated/{1}}
-Chat/MobDefeated/0={#Mobs/AnnouncementPrefix:0} has been defeated!
-Chat/MobDefeated/1={#Mobs/AnnouncementPrefix:0} has been defeated by {2}!
-Chat/MobDefeated/2={#Mobs/AnnouncementPrefix:0} has been defeated by {2} and {3}!
-Chat/MobDefeated/3={#Mobs/AnnouncementPrefix:0} has been defeated by {2}, {3} and {4}!
-Chat/MobDefeated/4={#Mobs/AnnouncementPrefix:0} has been defeated by {2}, {3}, {4} and {5}!
+Chat/MobDefeated/0=<c val="{#Colors/super}">{#Mobs/AnnouncementPrefix:0} </c><c val="{#Colors/unusual}">has been defeated!</c>
+Chat/MobDefeated/1=<c val="{#Colors/super}">{#Mobs/AnnouncementPrefix:0} </c><c val="{#Colors/unusual}">has been defeated by </c><c val="{#Colors/super}">{2}</c><c val="{#Colors/unusual}">!</c>
+Chat/MobDefeated/2=<c val="{#Colors/super}">{#Mobs/AnnouncementPrefix:0} </c><c val="{#Colors/unusual}">has been defeated by </c><c val="{#Colors/super}">{2}</c><c val="{#Colors/unusual}"> and </c><c val="{#Colors/super}">{3}</c><c val="{#Colors/unusual}">!</c>
+Chat/MobDefeated/3=<c val="{#Colors/super}">{#Mobs/AnnouncementPrefix:0} </c><c val="{#Colors/unusual}">has been defeated by </c><c val="{#Colors/super}">{2}</c><c val="{#Colors/unusual}">,</c><c val="{#Colors/super}"> {3} </c><c val="{#Colors/unusual}">and </c><c val="{#Colors/super}">{4}</c><c val="{#Colors/unusual}">!</c>
+Chat/MobDefeated/4=<c val="{#Colors/super}">{#Mobs/AnnouncementPrefix:0} </c><c val="{#Colors/unusual}">has been defeated by </c><c val="{#Colors/super}">{2}</c><c val="{#Colors/unusual}">, </c><c val="{#Colors/super}">{3}</c><c val="{#Colors/unusual}">, </c><c val="{#Colors/super}">{4} </c><c val="{#Colors/unusual}">and </c><c val="{#Colors/super}">{5}</c><c val="{#Colors/unusual}">!</c>
 
-Chat/Rift/Opened=A mysterious rift has opened!
+Chat/Rift/Opened=A mysterious rift has opened!</c>
 
-Chat/Revived=You were revived by {0}.
-Chat/Marked=You were marked by {0}.
+Chat/Revived=<c val="{#Colors/unusual}">You were revived by <c val="{#Colors/legendary}">{0}<c val="{#Colors/unusual}">.</c>
+Chat/Marked=<c val="{#Colors/unusual}">You were marked by <c val="{#Colors/legendary}">{0}<c val="{#Colors/unusual}">.</c>
 
-Chat/Muted=You are not allowed to chat right now because of past inappropriate messages.<n/>You'll be able to chat again in {0:time}.
-Chat/Muted/Message=I have previously said things which I regret. Now I ponder in silence.
+Chat/Muted=You are not allowed to chat right now because of past inappropriate messages.<n/>You'll be able to chat again in {0:time} ({0} Seconds).
+Chat/Muted/Message=I am muted.
 Chat/Spam=You're doing that too much.
 Chat/Alone=No one is around to hear you.
 Chat/Banned=You're currently banned so you will not be able to play.

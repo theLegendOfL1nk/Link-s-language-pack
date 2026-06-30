@@ -1,14 +1,14 @@
 UI/Language/Name=English (US)
 # These are the translators that worked on this translation. Separate with <n/>
-UI/Language/Credits=
+UI/Language/Credits=LinkPlayz
 
 UI/Title/Loading=Loading...
 UI/Title/Connecting=Connecting...
 UI/Title/LoggingIn=Logging in...
-UI/Title/Ready=Ready
+UI/Title/Ready=Play
 UI/Title/GuestName=Guest
 UI/Title/GuestLimitation=You can choose a nickname once you link an account or reach level {0}.
-UI/Title/LockedInHel=You are stuck in Hel for {0:time}.
+UI/Title/LockedInHel=You are stuck in Hel for {0:time} ({0} Seconds).
 UI/Title/Name/Title=This pretty little flower is called...
 UI/Title/Name/Rules1=Your name must be alphanumeric or {2}, and contain {0}~{1} chars.
 UI/Title/Name/Rules2=Must have at least {0} alphanumeric chars.

@@ -378,8 +378,8 @@ Petals/mjolnir/default/Name=Fragment
 Petals/mjolnir/default/FullName=Fragment
 Petals/mjolnir/default/Description=Perhaps this could be used to forge something great?
 
-Petals/mjolnir/unique/Name=MjÃ¶lnir
-Petals/mjolnir/unique/FullName=MjÃ¶lnir
+Petals/mjolnir/unique/Name=Mjolnir
+Petals/mjolnir/unique/FullName=Mjolnir
 Petals/mjolnir/unique/Description=Only the most powerful hammer in the universe.
 
 Petals/mecha_missile/Name=Missile
